@@ -6,7 +6,7 @@
 
 <p>The repository contains an Eclipse Java project called timertest build with Maven. The project contains a BDD testing framework that tests a timer functionality on the website http://www.e.ggtimer.com/. The BDD test scenarios were sepcified using the Gerkin language and were built using the browser automation library Selenium.</p>
 
-<p>Please make sure you have access to internet when running the tests. It is expected that some tests will fail - There are bugs in the timer application! (see section 6)</p>
+<p>Please make sure you have access to internet when running the tests. It is expected that some tests will fail - There are bugs in the timer application! (see section 5)</p>
 <br />
 <p>In order to build and run the code, the following are required:
 
@@ -42,7 +42,7 @@
 
 <p>The project works only on Windows platform.</p>
 	
-<h2>4. Highlights:</h2>
+<h2>3. Highlights:</h2>
 <ul>
 <li>The frameworks makes it easy to add a different wed driver to test with (FireFox, IE etc.)</li>
 <li>Test coverage is increased by using boundary value technique and equivalence partitioning</li>
@@ -50,7 +50,7 @@
 </ul>	
 
 	
-<h2>5. Improvements:</h2>
+<h2>4. Improvements:</h2>
 	
 <ul>
 <li>Use a headless browser for running the tests in the background without opening the physical browser. It is possible to do so using, for example, PhantomJS with GhostDriver. The current solution has the possibility to use PhantomJS web driver, but the implmentation is not ready.
@@ -62,7 +62,7 @@
 <li>Test the audio part.</li>	
 </ul>		
 	
-<h2>6. Bugs:</h2>
+<h2>5. Bugs:</h2>
 <ol>
 	<li><strong>Bug title</strong>: Alert dialog opens twice when user input is invalid.<br />
 <strong>Bug description</strong>: Whenever the user input is invalid (negative number or random text that do not mach the time units), the alert dialog opens again after closing it first.<br />
