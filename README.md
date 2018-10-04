@@ -19,8 +19,8 @@
 	<br />
 <li>From Eclipse IDE
 <ul>
-<li>Import the project into Eclipse IDE</li>
 <li>Make sure you have Maven plugin in Eclipse</li>
+<li>Import the project into Eclipse IDE</li>
 <li>Run the application as a JUnit Project</li>
 <li>The run from IDE gives a better overview of the test results</li>
 </ul>		
@@ -28,9 +28,9 @@
 	<br />
 <li>Using Maven from cmd
 <ul>
-	<li>Run <code>mvn test</code> in the project directory (where the pom.xml file is located) in order to run all tests</li>
 <li>Make sure you have Maven installed on your computer </li>
 <li>Configure the Windows environment variable to contain the Maven installation path</li>
+<li>Run <code>mvn test</code> in the project directory (where the pom.xml file is located) in order to run all tests</li>
 </ul>		
 </li>
 </ol>
