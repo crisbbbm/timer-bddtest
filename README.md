@@ -37,8 +37,7 @@
 
 <h2>2. Platform limitations:</h2>
 
-	- The project was not tested on operating systems other than Windows
-
+	- The project works only on Windows platform
 	
 <h2>4. Highlights:</h2>
 	
