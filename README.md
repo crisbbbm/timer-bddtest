@@ -35,8 +35,8 @@ In order to build and run the code, the following are required:
 	
 	- The frameworks makes it easy to add a different wed driver to test with (FirFox, IE etc.)
 	- Test coverage is increased by using boundary value technique and equivalence partitioning
-	- Some short scenarios test the expected timeout, but others scenartios that are expected to run longer, focus on verifying 
-	the correct countdown. 	The number of seconds you want to wait for a scenario to run can be specified as test data in the BDD 		steps.
+	- Some short scenarios test the expected timeout, but others scenartios that run longer, focus on verifying 
+	the correct countdown. 	The number of seconds to wait for a scenario to run can be specified as test data in the BDD steps.
 
 	
 5. Improvements:
